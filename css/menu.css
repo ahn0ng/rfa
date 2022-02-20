@@ -1,0 +1,329 @@
+/* 메뉴 */
+
+#menu {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeff1;
+  z-index: 9996;
+  position: relative;
+  display: none;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#user_info {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 8%;
+  font-size: 0.8rem;
+}
+
+#menu_list {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.menu_name > div {
+  width: 80%;
+  background-color: #ddd;
+  margin: 4% auto 0 auto;
+  border-radius: 5px;
+  line-height: 30px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.menu_name > div:hover {
+  background-color: #ffb226;
+  color: #eeeff1;
+}
+
+#menu_end {
+  width: 80%;
+  height: 30px;
+  margin: 4% auto 0 auto;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+#menu_end > div {
+  width: 44%;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ffb226;
+  border-radius: 5px;
+  font-size: 0.7rem;
+}
+
+#menu_end div:hover {
+  background-color: #ffb226;
+  color: #fff;
+}
+
+/* 로그인 */
+
+.login_header {
+  width: 100%;
+  height: 20px;
+  position: relative;
+}
+#back_btn {
+  height: 20px;
+  float: right;
+  margin: 20px 20px 0 0;
+  cursor: pointer;
+  position: relative;
+}
+
+#login {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeff1;
+  z-index: 9997;
+  position: relative;
+  display: none;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login-form {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  padding: 20px;
+  text-align: center;
+  border: none;
+  position: relative;
+  z-index: 9998;
+  overflow-x: hidden;
+}
+
+.login-form h1 {
+  color: #ffb226;
+}
+
+.login-form input:nth-child(1) {
+  margin-top: 20px;
+}
+
+.text-field {
+  font-size: 0.7rem;
+  padding: 10px;
+  border: none;
+  width: 260px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  font-size: 0.8rem;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffb226;
+  margin-bottom: 30px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.links {
+  text-align: center;
+  width: 100%;
+}
+
+.links div {
+  display: inline;
+  font-size: 0.7rem;
+  color: #9b9b9b;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+/* 회원가입 */
+
+#back_btn2 {
+  float: right;
+  margin: 20px 20px 0 0;
+  cursor: pointer;
+}
+#register {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeff1;
+  position: relative;
+  display: none;
+  z-index: 9998;
+  overflow-x: hidden;
+}
+
+#login_pg {
+  color: #ffb226;
+  cursor: pointer;
+}
+
+.submit-btn2 {
+  font-size: 0.8rem;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffb226;
+  margin-bottom: 30px;
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* 체크박스 */
+
+#agree {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 0.7rem;
+}
+
+#agree p {
+  display: inline;
+  padding-left: 20px;
+  white-space: pre-line;
+}
+#agree_email {
+  width: 100%;
+  margin-top: 5px;
+}
+#agree_info {
+  width: 100%;
+  margin-top: 10px;
+}
+
+input[id="available1"],
+input[id="available2"] {
+  display: none;
+}
+.checkbox_register {
+  height: 1rem;
+  display: inline-block;
+  background: url("https://img.icons8.com/ios/50/2d2d2d/unchecked-checkbox.png")
+    no-repeat;
+  background-size: contain;
+}
+
+#available1:checked ~ .checkbox_register,
+#available2:checked ~ .checkbox_register {
+  background: url("https://img.icons8.com/ios/50/FFB226/checked-checkbox--v1.png")
+    no-repeat;
+  background-size: contain;
+}
+
+.login-form span {
+  font-size: 0.8rem;
+}
+
+/* 비밀번호 찾기 */
+
+#back_btn3 {
+  float: right;
+  margin: 20px 20px 0 0;
+  cursor: pointer;
+}
+
+#password {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeff1;
+  z-index: 9998;
+  position: relative;
+  display: none;
+  overflow-x: hidden;
+}
+
+.submit-btn3 {
+  font-size: 0.8rem;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffb226;
+  margin-bottom: 30px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#login_pg2 {
+  color: #ffb226;
+  cursor: pointer;
+}
+
+/* 메뉴 버튼 클릭 */
+
+.menu_header {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  text-align: center;
+  background-color: #eeeff1;
+}
+
+#menuBtn4,
+#menuBtn5,
+#menuBtn6,
+#menuBtn7,
+#menuBtn8,
+#menuBtn9 {
+  display: none;
+}
+
+.menu_wrap {
+  width: 100%;
+  /* height: 100%; */
+  background-color: #eeeff1;
+  position: absolute;
+  top: 0;
+  display: none;
+  overflow-x: hidden;
+}
+
+#menuBtn4:checked ~ #notice,
+#menuBtn5:checked ~ #user_info_edit,
+#menuBtn6:checked ~ #setting_place,
+#menuBtn7:checked ~ #excel,
+#menuBtn8:checked ~ #setting,
+#menuBtn9:checked ~ #service {
+  display: block;
+}
+
+.menu_title {
+  height: 50px;
+  display: inline-block;
+  line-height: 60px;
+}
+
+.menu_back_btn {
+  margin: 20px 20px 0 0;
+  cursor: pointer;
+  position: fixed;
+  right: 0;
+}
+
+.menu_back_btn img {
+  height: 20px;
+}
+
+#notice_con {
+  width: 90%;
+  margin: 60px auto;
+  height: 1200px;
+}
+
+.logo img {
+  width: 90%;
+}
